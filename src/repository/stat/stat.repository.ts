@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { CreateStatInput } from 'src/dto/create-stat-input/create-stat-input';
-import { PrismaService } from 'src/shared/prisma/prisma.service';
+import { CreateStatInput } from '../../dto/create-stat-input/create-stat-input';
+import { PrismaService } from '../../shared/prisma/prisma.service';
 
 @Injectable()
 export class StatRepository {

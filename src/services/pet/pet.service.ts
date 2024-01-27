@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { PetRepository } from 'src/repository/pet/pet.repository';
-import { CreatePetInput } from 'src/dto/create-pet-input/create-pet-input';
+import { PetRepository } from '../../repository/pet/pet.repository';
+import { CreatePetInput } from '../../dto/create-pet-input/create-pet-input';
 import { StatService } from '../stat/stat.service';
 
 @Injectable()

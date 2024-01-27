@@ -1,6 +1,6 @@
 import { Controller, Post, Body } from '@nestjs/common';
 import { PetService } from './pet.service';
-import { CreatePetInput } from 'src/dto/create-pet-input/create-pet-input';
+import { CreatePetInput } from '../../dto/create-pet-input/create-pet-input';
 
 @Controller('pet')
 export class PetController {

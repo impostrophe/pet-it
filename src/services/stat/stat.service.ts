@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { CreateStatInput } from 'src/dto/create-stat-input/create-stat-input';
-import { StatRepository } from 'src/repository/stat/stat.repository';
+import { CreateStatInput } from '../../dto/create-stat-input/create-stat-input';
+import { StatRepository } from '../../repository/stat/stat.repository';
 
 @Injectable()
 export class StatService {

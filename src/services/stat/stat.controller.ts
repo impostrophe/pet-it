@@ -1,6 +1,6 @@
 import { Controller, Get, Post, Body, Patch, Param } from '@nestjs/common';
 import { StatService } from './stat.service';
-import { CreateStatInput } from 'src/dto/create-stat-input/create-stat-input';
+import { CreateStatInput } from '../../dto/create-stat-input/create-stat-input';
 
 @Controller('stat')
 export class StatController {
