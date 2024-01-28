@@ -1,8 +1,8 @@
 {
-  "buildCommand": "npm run build && npx prisma migrate deploy && npx prisma generate",
+  "buildCommand": "npm run build && npx prisma migrate deploy && npx prisma generate && mv dist/**/* dist/api/",
   "outputDirectory": "dist",
   "functions": {
-    "dist/main.js": {
+    "api/main.js": {
       "maxDuration": 10
     }
   }
