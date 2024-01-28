@@ -2,7 +2,7 @@
   "buildCommand": "npm run build && npx prisma migrate deploy && npx prisma generate",
   "outputDirectory": "dist",
   "functions": {
-    "main.js": {
+    "dist/main.js": {
       "maxDuration": 10
     }
   }
