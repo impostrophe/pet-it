@@ -1,5 +1,7 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "main" }],
   "buildCommand": "npm run build && npx prisma migrate deploy && npx prisma generate",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "functions": {
+    "main.js": {}
+  }
 }
