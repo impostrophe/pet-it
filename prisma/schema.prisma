@@ -12,7 +12,6 @@ datasource db {
 
 model User {
   id           String         @id @default(uuid())
-  gptId        String         @unique
   Conversation Conversation[]
   Pet          Pet[]
   createdAt    DateTime       @default(now())
