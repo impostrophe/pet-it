@@ -6,9 +6,7 @@ export class UserRepository {
   constructor(private readonly prisma: PrismaService) {}
 
   public async create() {
-    return this.prisma.user.create({
-      data: {},
-    });
+    return this.prisma.user.create({});
   }
 
   public async findOneById(id: string) {
